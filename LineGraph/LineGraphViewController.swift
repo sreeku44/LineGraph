@@ -16,7 +16,7 @@ class LineGraphViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-    // to create a circle 
+    // to create a circle  (x & y coordinates of view)
         let circleView = CircleView(frame: CGRect(x: 0, y: 0, width: 374.8, height: 666.75))
         
         circleView.backgroundColor = UIColor.cyan
